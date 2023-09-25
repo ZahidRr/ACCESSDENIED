@@ -1,0 +1,131 @@
+.access-denied-child,
+.access-denied-inner,
+.access-denied-item,
+.ellipse-div {
+  position: absolute;
+  top: 217px;
+  left: -179px;
+  border-radius: 50%;
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 358px;
+  height: 358px;
+}
+.access-denied-inner,
+.access-denied-item,
+.ellipse-div {
+  top: 70px;
+  left: -326px;
+  width: 652px;
+  height: 652px;
+}
+.access-denied-inner,
+.ellipse-div {
+  top: 217px;
+  left: 1258px;
+  width: 358px;
+  height: 358px;
+}
+.ellipse-div {
+  top: 70px;
+  left: 1111px;
+  width: 652px;
+  height: 652px;
+}
+.access-denied1,
+.akses-ditolak {
+  position: absolute;
+  top: 70px;
+  left: 475px;
+  font-size: 62px;
+  font-weight: 800;
+  color: var(--color-crimson);
+}
+.access-denied1 {
+  top: 148px;
+  left: 563px;
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--color-gray);
+}
+.rectangle-div {
+  position: absolute;
+  top: 293px;
+  left: 222px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-crimson);
+  box-shadow: 1px 0.5px 11px -2px rgba(0, 0, 0, 0.25);
+  width: 449px;
+  height: 271px;
+}
+.situs-ini-tidak {
+  margin: 0;
+}
+.mohon-maaf,
+.situs-ini-tidak-container {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+}
+.situs-ini-tidak-container {
+  top: 401px;
+  left: 260px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  width: 373px;
+}
+.mohon-maaf {
+  top: 341px;
+  left: 333px;
+  width: 229px;
+}
+.access-denied-child1 {
+  position: absolute;
+  top: 293px;
+  left: 766px;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-crimson);
+  box-shadow: 1px 0.5px 11px -2px rgba(0, 0, 0, 0.25);
+  width: 449px;
+  height: 271px;
+}
+.this-site-cannot,
+.we-are-sorry {
+  position: absolute;
+  top: 341px;
+  left: 876px;
+  display: inline-block;
+  text-align: center;
+  width: 229px;
+}
+.this-site-cannot {
+  top: 401px;
+  left: 804px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  width: 373px;
+}
+.contact,
+.supporttodaymmanet {
+  position: absolute;
+  top: 641px;
+  left: 637px;
+  font-weight: 600;
+  color: var(--color-gray);
+}
+.supporttodaymmanet {
+  top: 681px;
+  left: 547px;
+  font-size: 27px;
+}
+.access-denied {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 792px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
