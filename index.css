@@ -11,6 +11,7 @@
   width: 358px;
   height: 358px;
 }
+
 .access-denied-inner,
 .access-denied-item,
 .ellipse-div {
@@ -19,6 +20,7 @@
   width: 652px;
   height: 652px;
 }
+
 .access-denied-inner,
 .ellipse-div {
   top: 217px;
@@ -26,12 +28,14 @@
   width: 358px;
   height: 358px;
 }
+
 .ellipse-div {
   top: 70px;
   left: 1111px;
   width: 652px;
   height: 652px;
 }
+
 .access-denied1,
 .akses-ditolak {
   position: absolute;
@@ -41,6 +45,7 @@
   font-weight: 800;
   color: var(--color-crimson);
 }
+
 .access-denied1 {
   top: 148px;
   left: 563px;
@@ -48,6 +53,7 @@
   font-weight: 600;
   color: var(--color-gray);
 }
+
 .rectangle-div {
   position: absolute;
   top: 293px;
@@ -58,15 +64,18 @@
   width: 449px;
   height: 271px;
 }
+
 .situs-ini-tidak {
   margin: 0;
 }
+
 .mohon-maaf,
 .situs-ini-tidak-container {
   position: absolute;
   display: inline-block;
   text-align: center;
 }
+
 .situs-ini-tidak-container {
   top: 401px;
   left: 260px;
@@ -74,11 +83,13 @@
   font-weight: 500;
   width: 373px;
 }
+
 .mohon-maaf {
   top: 341px;
   left: 333px;
   width: 229px;
 }
+
 .access-denied-child1 {
   position: absolute;
   top: 293px;
@@ -89,6 +100,7 @@
   width: 449px;
   height: 271px;
 }
+
 .this-site-cannot,
 .we-are-sorry {
   position: absolute;
@@ -98,6 +110,7 @@
   text-align: center;
   width: 229px;
 }
+
 .this-site-cannot {
   top: 401px;
   left: 804px;
@@ -105,6 +118,7 @@
   font-weight: 500;
   width: 373px;
 }
+
 .contact,
 .supporttodaymmanet {
   position: absolute;
@@ -113,11 +127,13 @@
   font-weight: 600;
   color: var(--color-gray);
 }
+
 .supporttodaymmanet {
   top: 681px;
   left: 547px;
   font-size: 27px;
 }
+
 .access-denied {
   position: relative;
   background-color: var(--color-white);
@@ -128,4 +144,34 @@
   font-size: var(--font-size-11xl);
   color: var(--color-white);
   font-family: var(--font-poppins);
+}
+
+/* Media Query untuk Responsif di Ponsel */
+@media screen and (max-width: 768px) {
+  .access-denied,
+  .access-denied-inner,
+  .access-denied-item,
+  .ellipse-div,
+  .access-denied-child1,
+  .rectangle-div {
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .access-denied {
+    text-align: center;
+  }
+
+  .access-denied1,
+  .akses-ditolak,
+  .mohon-maaf,
+  .we-are-sorry,
+  .this-site-cannot,
+  .contact,
+  .supporttodaymmanet {
+    font-size: 24px;
+  }
 }
